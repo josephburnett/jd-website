@@ -2,6 +2,23 @@
 
 `jd` aims to be the Unix `diff` and `patch` for structured data.
 
+## Examples
+<form>
+	<p>
+		<input type="text" id="a-input" value='{"foo":["bar"]}'/>
+    </p>
+	<p>
+		<button type="submit" id="diff-button">Diff</button>
+    </p>
+	<p>
+		<input type="text" id="b-input" value='{"foo":["baz"]}'/>
+	</p>
+	Output:
+	<p>
+		<textarea id="diff-output" rows="3"></textarea>
+	</p>
+</form>
+
 # JSON diff and patch
 
 `jd` is a commandline utility and Go library for diffing and patching JSON and YAML values. It supports a native `jd` format (similar to unified format) as well as JSON Merge Patch ([RFC 7386](https://datatracker.ietf.org/doc/html/rfc7386)) and a subset of JSON Patch ([RFC 6902](https://datatracker.ietf.org/doc/html/rfc6902)). Try it out at [play.jd-tool.io](http://play.jd-tool.io/.)
