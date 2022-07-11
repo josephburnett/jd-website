@@ -1,5 +1,7 @@
 [![Go Report Card](https://goreportcard.com/badge/josephburnett/jd)](https://goreportcard.com/report/josephburnett/jd)
 
+`jd` aims to be the Unix `diff` and `patch` for structured data.
+
 # JSON diff and patch
 
 `jd` is a commandline utility and Go library for diffing and patching JSON and YAML values. It supports a native `jd` format (similar to unified format) as well as JSON Merge Patch ([RFC 7386](https://datatracker.ietf.org/doc/html/rfc7386)) and a subset of JSON Patch ([RFC 6902](https://datatracker.ietf.org/doc/html/rfc6902)). Try it out at [play.jd-tool.io](http://play.jd-tool.io/.)
